@@ -1,0 +1,42 @@
+{
+  "name": "nuxt2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "koa": "2.14.2",
+    "koa-body": "6.0.1",
+    "@koa/router": "8.0.5",
+    "@nuxtjs/axios": "5.13.6",
+    "@nuxtjs/proxy": "2.1.0",
+    "nuxt": "2.15.8",
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "1.0.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "1.13.6",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "cross-env": "^7.0.3",
+    "f2elint": "^2.2.1",
+    "github-markdown-css": "^5.1.0",
+    "less": "^2.3.1",
+    "less-loader": "^5.0.0",
+    "node-sass": "^6.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "2.3.2",
+    "sass": "~1.32.6",
+    "sass-loader": "^10.4.1",
+    "vconsole": "^3.14.6",
+    "vue-dotmd-loader": "^0.2.2"
+  }
+}
